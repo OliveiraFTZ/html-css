@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sleep forms</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" autocomplete="off">
+            <p>
+                <label for="iusu">Usuario</label>
+                <input type="text" name="usu" id="iusu" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+                <label for="iphone">Telefone</label>
+                <input type="tel" name="phone" id="iphone" placeholder="(xx)xxxxx-xxxx" required>
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
